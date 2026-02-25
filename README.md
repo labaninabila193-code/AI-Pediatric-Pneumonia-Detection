@@ -73,6 +73,7 @@ A deep learning system that:
 > (Bouhmidi Amina Maroua) — including data cleaning, balancing, augmentation,
 > and train/val/test split. This project builds on that preprocessing work
 > for model training and evaluation.
+---
 **External Validation Dataset:**
 - **Source:** [Pneumonia Radiography Dataset](https://www.kaggle.com/datasets/iamtanmayshukla/pneumonia-radiography-dataset)
 - **Size:** 488 images (237 NORMAL, 251 PNEUMONIA)
