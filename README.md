@@ -25,6 +25,7 @@
 - [External Validation](#-external-validation)
 - [Grad-CAM Visualizations](#-grad-cam-visualizations)
 - [Project Structure](#-project-structure)
+- Pre-trained Models 
 - [How to Run](#-how-to-run)
 - [Team](#-team)
 
@@ -67,7 +68,11 @@ A deep learning system that:
 - **Patients:** Pediatric patients aged 1–5, Guangzhou Women and Children's Medical Center
 - **Split:** 70% train / 15% validation / 15% test
 - **Preprocessing:** Data augmentation (rotation, flip, zoom, brightness), class weighting for imbalance
-
+> 📌 **Data Preprocessing:** The dataset preprocessing pipeline was developed by
+> [@AminaMar](https://github.com/AminaMar/pediatric-pneumonia-detection)
+> (Bouhmidi Amina Maroua) — including data cleaning, balancing, augmentation,
+> and train/val/test split. This project builds on that preprocessing work
+> for model training and evaluation.
 **External Validation Dataset:**
 - **Source:** [Pneumonia Radiography Dataset](https://www.kaggle.com/datasets/iamtanmayshukla/pneumonia-radiography-dataset)
 - **Size:** 488 images (237 NORMAL, 251 PNEUMONIA)
@@ -239,8 +244,26 @@ AI-Pediatric-Pneumonia-Detection/
 │
 └── 📋 README.md
 ```
-
 ---
+---
+
+## 💾 Pre-trained Models
+
+Model files exceed GitHub's 25MB limit and are hosted on Google Drive.
+
+👉 [**Click here to download all models**](https://drive.google.com/drive/folders/1JtnqNL4lMSRHBtR_eex96k64wSix97Y9?usp=sharing)
+
+| Model | Accuracy | Sensitivity | Size |
+|-------|----------|-------------|------|
+| densenet121_best_model.keras ⭐ Winner | 94.31% | 95.01% | 34.3 MB |
+| resnet50_best_model.keras | 78.16% | 95.48% | 102.6 MB |
+| vgg16_best_model.keras | 91.35% | 95.32% | 57.7 MB |
+
+> 💡 To load a model:
+> ```python
+> import tensorflow as tf
+> model = tf.keras.models.load_model('densenet121_best_model.keras')
+> ```
 
 ## 🚀 How to Run
 
