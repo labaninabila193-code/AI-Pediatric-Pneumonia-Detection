@@ -63,11 +63,11 @@ A deep learning system that:
 
 ```mermaid
 flowchart LR
-    A[Chest X-ray Image] --> B[Preprocessing & Augmentation]
-    B --> C[CNN Model Training - ResNet or VGG or DenseNet121]
-    C --> D[Evaluation on Test Set]
-    D --> E[Threshold Optimization]
-    E --> F[Grad-CAM Visualization]
+    A[🩻 Chest X-ray Image] --> B[🧹 Preprocessing & Data Augmentation]
+    B --> C[🧠 Transfer Learning CNN<br/>(ResNet50 / VGG16)]
+    C --> D[📊 Performance Evaluation<br/>(Accuracy, Recall, AUC)]
+    D --> E[🎯 Threshold Optimization]
+    E --> F[🔥 Grad-CAM Explainability Maps]
 ```
 ## 📁 Dataset
 
