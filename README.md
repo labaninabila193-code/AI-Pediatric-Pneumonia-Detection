@@ -59,16 +59,7 @@ A deep learning system that:
 - Designed for integration with Algerian hospital Electronic Medical Records (DEM) via **HL7/FHIR** standards
 
 ---
-## 🔬 Model Pipeline
 
-```mermaid
-flowchart LR
-    A[🩻 Chest X-ray Image] --> B[🧹 Preprocessing & Data Augmentation]
-    B --> C[🧠 Transfer Learning CNN<br/>(ResNet50 / VGG16)]
-    C --> D[📊 Performance Evaluation<br/>(Accuracy, Recall, AUC)]
-    D --> E[🎯 Threshold Optimization]
-    E --> F[🔥 Grad-CAM Explainability Maps]
-```
 ## 📁 Dataset
 
 **Primary Training Dataset:**
