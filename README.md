@@ -25,7 +25,7 @@
 - [External Validation](#-external-validation)
 - [Grad-CAM Visualizations](#-grad-cam-visualizations)
 - [Project Structure](#-project-structure)
-- Pre-trained Models 
+- [Pre-trained Models](#-Pre-trained-Models)
 - [How to Run](#-how-to-run)
 - [Team](#-team)
 
