@@ -1,0 +1,28 @@
+======================================================================
+RESNET50 PNEUMONIA DETECTION - EVALUATION REPORT
+======================================================================
+
+Date: 2026-02-24 20:53:59
+Model: ResNet50
+Dataset: Kaggle Pediatric Chest X-Ray Pneumonia
+
+TRAINING SUMMARY:
+----------------------------------------------------------------------
+Training Time: 65.33 minutes
+Epochs Completed: 16
+Best Epoch: 9
+
+TEST SET PERFORMANCE:
+----------------------------------------------------------------------
+Accuracy:     0.8214 (82.14%)
+Sensitivity:  0.8487 (84.87%)
+Specificity:  0.7479 (74.79%)
+Precision:    0.9007 (90.07%)
+AUC-ROC:      0.8802
+
+OPTIMIZED PERFORMANCE:
+----------------------------------------------------------------------
+Threshold:    0.390
+Sensitivity:  0.9548 (95.48%)
+Specificity:  0.3151 (31.51%)
+Accuracy:     0.7816 (78.16%)

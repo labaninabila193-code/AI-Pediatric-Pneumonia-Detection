@@ -1,0 +1,28 @@
+======================================================================
+VGG16 PNEUMONIA DETECTION - EVALUATION REPORT
+======================================================================
+
+Date: 2026-02-25 14:58:34
+Model: VGG16
+Dataset: Kaggle Pediatric Chest X-Ray Pneumonia
+
+TRAINING SUMMARY:
+----------------------------------------------------------------------
+Training Time: 120.00 minutes
+Epochs Completed: 21
+Best Epoch: 21
+
+TEST SET PERFORMANCE:
+----------------------------------------------------------------------
+Accuracy:     0.7611 (76.11%)
+Sensitivity:  0.6739 (67.39%)
+Specificity:  0.9958 (99.58%)
+Precision:    0.9977 (99.77%)
+AUC-ROC:      0.9644
+
+OPTIMIZED PERFORMANCE:
+----------------------------------------------------------------------
+Threshold:    0.110
+Sensitivity:  0.9532 (95.32%)
+Specificity:  0.8067 (80.67%)
+Accuracy:     0.9135 (91.35%)

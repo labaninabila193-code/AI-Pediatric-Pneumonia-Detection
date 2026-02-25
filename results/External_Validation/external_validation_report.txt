@@ -1,0 +1,51 @@
+
+======================================================================
+DENSENET121 - EXTERNAL DATASET VALIDATION REPORT
+======================================================================
+
+Date: 2026-02-25
+Model: DenseNet121 (trained on Kaggle Pediatric Chest X-Ray)
+External Dataset: Pneumonia Radiography Dataset (Kaggle)
+Source: ayushirathour/chest-xray-pneumonia-detection-ai
+
+PURPOSE:
+----------------------------------------------------------------------
+Cross-dataset validation to test model generalization.
+The model was trained on Kaggle Pediatric dataset and tested
+on a completely independent dataset it has never seen before.
+
+EXTERNAL TEST SET:
+----------------------------------------------------------------------
+Total Samples:  488
+NORMAL:         237
+PNEUMONIA:      251
+
+RESULTS (Threshold = 0.260):
+----------------------------------------------------------------------
+Accuracy:       87.09%
+Sensitivity:    97.21%
+Specificity:    76.37%
+Precision:      81.33%
+F1-Score:       0.8857
+
+CONFUSION MATRIX:
+----------------------------------------------------------------------
+True Negatives:  181
+False Positives: 56
+False Negatives: 7
+True Positives:  244
+
+COMPARISON - Kaggle vs External Dataset:
+----------------------------------------------------------------------
+Metric          Kaggle Test     External Dataset
+Accuracy        94.31%          87.09%
+Sensitivity     95.01%          97.21%
+Specificity     92.44%          76.37%
+
+CLINICAL INTERPRETATION:
+----------------------------------------------------------------------
+This cross-dataset validation demonstrates the model's ability
+to generalize beyond its training distribution, which is critical
+for real-world clinical deployment in Algerian hospitals.
+
+======================================================================

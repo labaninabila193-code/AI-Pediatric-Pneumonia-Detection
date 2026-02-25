@@ -1,0 +1,21 @@
+{
+    "model_name": "VGG16",
+    "img_size": 224,
+    "img_channels": 3,
+    "batch_size": 32,
+    "epochs": 30,
+    "learning_rate": 0.0001,
+    "rotation_range": 20,
+    "width_shift_range": 0.2,
+    "height_shift_range": 0.2,
+    "zoom_range": 0.2,
+    "horizontal_flip": true,
+    "dropout_rate": 0.5,
+    "patience_early_stop": 7,
+    "patience_lr_reduce": 3,
+    "class_names": [
+        "NORMAL",
+        "PNEUMONIA"
+    ],
+    "seed": 42
+}

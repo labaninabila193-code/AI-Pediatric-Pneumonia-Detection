@@ -1,0 +1,41 @@
+======================================================================
+DENSENET121 PNEUMONIA DETECTION - EVALUATION REPORT
+======================================================================
+
+Date: 2026-02-22 14:15:00
+Model: DenseNet121
+Dataset: Kaggle Pediatric Chest X-Ray Pneumonia
+
+TRAINING SUMMARY:
+----------------------------------------------------------------------
+Training Time: 57.97 minutes
+Epochs Completed: 16
+Best Epoch: 9 (based on validation loss)
+Early Stopping: Yes (patience = 7)
+
+TEST SET PERFORMANCE:
+----------------------------------------------------------------------
+Total Samples: 879
+  NORMAL: 238
+  PNEUMONIA: 641
+
+Accuracy:     0.9204 (92.04%)
+Sensitivity:  0.9002 (90.02%) ⭐
+Specificity:  0.9748 (97.48%)
+Precision:    0.9897 (98.97%)
+F1-Score:     0.9428
+AUC-ROC:      0.9810
+
+CONFUSION MATRIX:
+----------------------------------------------------------------------
+True Negatives:   232
+False Positives:    6
+False Negatives:   64
+True Positives:   577
+
+CLINICAL INTERPRETATION:
+----------------------------------------------------------------------
+⚠️  Sensitivity (90.02%) below 95% target
+✅ Specificity meets target (≥85%)
+
+======================================================================

@@ -1,0 +1,2 @@
+Model,Test_Accuracy,Test_Sensitivity,Test_Specificity,Test_Precision,Test_F1_Score,Test_AUC_ROC,Test_PPV,Test_NPV,Optimized_Sensitivity,Optimized_Specificity,Optimized_Accuracy,Optimal_Threshold,True_Negatives,False_Positives,False_Negatives,True_Positives,Total_Test_Samples,Training_Time_Minutes,Epochs_Completed,Best_Epoch,Total_Params,Image_Size,Batch_Size,Learning_Rate,Date_Trained
+ResNet50,0.8214,0.8487,0.7479,0.9007,0.8739,0.8802,0.9007,0.6473,0.9548,0.3151,0.7816,0.3900,178,60,97,544,879,65.33,16,9,24637313,224,32,0.0001,2026-02-24 20:53:59

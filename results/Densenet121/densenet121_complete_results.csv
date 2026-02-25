@@ -1,0 +1,2 @@
+Model,Test_Accuracy,Test_Sensitivity,Test_Specificity,Test_Precision,Test_F1_Score,Test_AUC_ROC,Test_PPV,Test_NPV,True_Negatives,False_Positives,False_Negatives,True_Positives,Total_Test_Samples,Training_Time_Minutes,Epochs_Completed,Best_Epoch,Total_Params,Optimal_Threshold,Image_Size,Batch_Size,Learning_Rate,Date_Trained
+DenseNet121,0.9204,0.9002,0.9748,0.9897,0.9428,0.9810,0.9897,0.7838,232,6,64,577,879,57.97,16,9,7562817,0.4121,224,32,0.0001,2026-02-22 14:15:00

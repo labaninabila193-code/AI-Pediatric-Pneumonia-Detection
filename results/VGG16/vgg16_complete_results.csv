@@ -1,0 +1,2 @@
+Model,Test_Accuracy,Test_Sensitivity,Test_Specificity,Test_Precision,Test_F1_Score,Test_AUC_ROC,Test_PPV,Test_NPV,Optimized_Sensitivity,Optimized_Specificity,Optimized_Accuracy,Optimal_Threshold,True_Negatives,False_Positives,False_Negatives,True_Positives,Total_Test_Samples,Training_Time_Minutes,Epochs_Completed,Best_Epoch,Total_Params,Image_Size,Batch_Size,Learning_Rate,Date_Trained
+VGG16,0.7611,0.6739,0.9958,0.9977,0.8045,0.9644,0.9977,0.5314,0.9532,0.8067,0.9135,0.1100,237,1,209,432,879,120.00,27,21,14846273,"(224, 224)",30,0.0001,2026-02-25 14:58:34

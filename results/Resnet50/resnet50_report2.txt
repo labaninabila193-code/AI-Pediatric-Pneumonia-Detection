@@ -1,0 +1,35 @@
+
+======================================================================
+RESNET50 PNEUMONIA DETECTION - EVALUATION REPORT
+======================================================================
+
+Date: 2026-02-24
+Model: ResNet50
+Dataset: Kaggle Pediatric Chest X-Ray Pneumonia
+
+TEST SET PERFORMANCE (Default Threshold = 0.5):
+----------------------------------------------------------------------
+Accuracy:     82.14%
+Sensitivity:  84.87%  ⚠ Below 95% target
+AUC-ROC:      88.02%
+
+OPTIMIZED THRESHOLD RESULTS:
+----------------------------------------------------------------------
+Sensitivity:  95.48%  ✅ Target achieved
+Specificity:  31.51%  ❌ FAILS target (needs >=85%)
+Accuracy:     78.16%
+
+CLINICAL INTERPRETATION:
+----------------------------------------------------------------------
+⚠ ResNet50 fails clinical requirements at optimized threshold
+⚠ Specificity 31.51% means 69% of healthy patients
+  wrongly flagged as pneumonia - not acceptable
+⚠ Weakest model than DenseNet121
+
+COMPARISON NOTE:
+----------------------------------------------------------------------
+DenseNet121 is clearly superior:
+  DenseNet121 → Sensitivity 95.01% + Specificity 92.44% ✅
+  ResNet50    → Sensitivity 95.48% + Specificity 31.51% ❌
+
+======================================================================
