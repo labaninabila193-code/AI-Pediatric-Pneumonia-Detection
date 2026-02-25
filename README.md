@@ -246,7 +246,6 @@ AI-Pediatric-Pneumonia-Detection/
 └── 📋 README.md
 ```
 ---
----
 
 ## 💾 Pre-trained Models
 
