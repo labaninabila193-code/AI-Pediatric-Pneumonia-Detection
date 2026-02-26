@@ -24,6 +24,7 @@
 - [Model Comparison](#-model-comparison)
 - [External Validation](#-external-validation)
 - [Grad-CAM Visualizations](#-grad-cam-visualizations)
+- [Visual Examples](#-VisualExamples)
 - [Project Structure](#-project-structure)
 - [Pre-trained Models](#-Pre-trained-Models)
 - [How to Run](#-how-to-run)
@@ -208,7 +209,51 @@ The heatmaps confirm the model correctly focuses on:
 > This interpretability layer is critical for clinical trust — doctors can verify the AI is looking at the right anatomical regions before acting on predictions.
 
 ---
+---
 
+## 📸 Visual Examples
+
+### Sample Predictions with Grad-CAM
+
+<div align="center">
+
+#### ⚠️ PNEUMONIA Case - Correctly Detected
+
+![Pneumonia Detection](results/gradcam_visualizations/gradcam_1_PNEUMONIA.png)
+
+**Model Decision:** PNEUMONIA (Confidence: 99.3%)  
+**Grad-CAM Analysis:** Heatmap highlights consolidation pattern in right lower lobe — typical bacterial pneumonia presentation  
+**Clinical Correlation:** ✅ Correct diagnosis
+
+---
+
+#### ✅ NORMAL Case - Correctly Classified
+
+![Normal Classification](results/gradcam_visualizations/gradcam_4_NORMAL.png)
+
+**Model Decision:** NORMAL (Confidence: 98.8%)  
+**Grad-CAM Analysis:** Model focuses on central mediastinal structures, no pathological findings in lung fields  
+**Clinical Correlation:** ✅ Correct diagnosis
+
+---
+
+#### 🔍 Additional Examples
+
+| Pneumonia Cases | Normal Cases |
+|----------------|--------------|
+| ![](results/gradcam_visualizations/gradcam_3_PNEUMONIA.png) | ![](results/gradcam_visualizations/gradcam_5_NORMAL.png) |
+| ![](results/gradcam_visualizations/gradcam_2_PNEUMONIA.png) | ![](results/gradcam_visualizations/gradcam_6_NORMAL.png) |
+
+*Grad-CAM heatmaps confirm the model correctly identifies pathological vs normal anatomical regions across diverse cases*
+
+</div>
+
+> 🩺 **Clinical Interpretation:** The heatmaps demonstrate that DenseNet121 has learned clinically relevant features:
+> - For pneumonia: Focuses on areas of consolidation, infiltrates, and opacification
+> - For normal: Focuses on expected anatomical landmarks (heart, trachea, diaphragm)
+> - This interpretability is critical for radiologist trust and model validation
+
+---
 ## 📁 Project Structure
 
 ```
