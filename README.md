@@ -209,7 +209,6 @@ The heatmaps confirm the model correctly focuses on:
 > This interpretability layer is critical for clinical trust — doctors can verify the AI is looking at the right anatomical regions before acting on predictions.
 
 ---
----
 
 ## 📸 Visual Examples
 
