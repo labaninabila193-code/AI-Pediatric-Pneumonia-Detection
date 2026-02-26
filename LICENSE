@@ -19,3 +19,28 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+DATASET LICENSE NOTICE:
+
+The Kaggle Pediatric Chest X-Ray Pneumonia dataset used in this project is 
+subject to its own license terms. Please refer to:
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
+Users of this code must comply with the dataset's license requirements.
+
+---
+
+ACADEMIC USE NOTICE:
+
+This project was developed for educational purposes at the University of Saida, 
+Algeria, under the supervision of Dr. Abderrahmane Khiat and 
+Dr. Aimer Mohammed Djamel Eddine.
+
+When using this work in academic contexts, please cite:
+
+Labani, N., Bouhmidi, A., Kassouar, F., & Miloudi, M. (2026). 
+AI-Powered Early Pediatric Pneumonia Detection for Algeria. 
+University of Saida, Computer Science Department.
+GitHub: https://github.com/labaninabila193-code/AI-Pediatric-Pneumonia-Detection
