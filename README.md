@@ -401,7 +401,12 @@ All notebooks are designed to run on **Google Colab with T4 GPU**.
 This project is licensed under the MIT License.
 
 ---
+## 📧 Contact
 
+**Labani Nabila Nour ElHouda ** – ML Engineer  
+📍 University of Saida, Algeria  
+💻 GitHub: https://github.com/labaninabila193-code
+---
 <div align="center">
 
 **University of Saida, Algeria — 2026**
