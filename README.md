@@ -225,7 +225,6 @@ To prove the model generalizes beyond its training data, DenseNet121 was tested 
 > 🎯 **Key Finding:** Sensitivity actually **improved** on external data (97.21% vs 95.01%), demonstrating the model's strong ability to detect pneumonia cases across different imaging sources. The accuracy drop from 94% to 87% is expected and normal for cross-dataset validation — any result above 80% is considered strong generalization in medical AI literature.
 
 ---
----
 
 ## 🦠 Extension: COVID-19 vs Pneumonia Differentiation
 
@@ -253,6 +252,8 @@ a Pneumonia patient?"**
 - The model successfully distinguishes between the two conditions
 
 ![Confusion Matrix](results/covid_extensions/confusion_matrix_multiclass.png)
+
+---
 ## 🔥 Grad-CAM Visualizations
 
 Grad-CAM (Gradient-weighted Class Activation Mapping) was implemented on the winning DenseNet121 model to provide **clinical interpretability** — showing exactly which lung regions the AI focused on when making predictions.
