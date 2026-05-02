@@ -252,7 +252,7 @@ a Pneumonia patient?"**
 - Pneumonia → misclassified as COVID: **0 cases**
 - The model successfully distinguishes between the two conditions
 
-![Confusion Matrix](results/covid_extensions/confusion_matrix_multiclass.png)
+![Confusion Matrix](results/covid_extensions/confusion_matrix_multiclass(1).png)
 
 ---
 ## 🔥 Grad-CAM Visualizations
