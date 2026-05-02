@@ -322,6 +322,7 @@ AI-Pediatric-Pneumonia-Detection/
 │   ├── 03_VGG16_Training.ipynb
 │   ├── 04_External_Validation.ipynb
 │   └── 05_GradCAM.ipynb
+│   └── 06_COVID_vs_Pneumonia_Classification.ipynb
 │
 ├── 📊 results/
 │   ├── densenet121/
