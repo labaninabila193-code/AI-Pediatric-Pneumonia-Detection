@@ -23,6 +23,7 @@
 - [Results](#-results)
 - [Model Comparison](#-model-comparison)
 - [External Validation](#-external-validation)
+- [Extension: COVID-19 vs Pneumonia Differentiation](#-extension-covid-19-vs-pneumonia-differentiation)
 - [Grad-CAM Visualizations](#-grad-cam-visualizations)
 - [Visual Examples](#-VisualExamples)
 - [Project Structure](#-project-structure)
