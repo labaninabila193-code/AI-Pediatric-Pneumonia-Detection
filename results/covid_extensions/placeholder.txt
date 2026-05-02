@@ -1,1 +1,16 @@
 This folder contains results for the extended model trained to detect COVID-19 cases in chest X-ray images.
+======================================================================
+  FINAL REPORT — CAN THE MODEL DIFFERENTIATE COVID FROM PNEUMONIA?
+======================================================================
+
+  Overall Test Accuracy: 92.41%
+
+  Class                 Precision     Recall   F1-Score
+  ----------------------------------------------------
+  COVID                     90.6%      91.1%      90.9%
+  Normal                    88.5%      90.0%      89.3%
+  Viral Pneumonia           98.3%      96.1%      97.2%
+
+  KEY FINDING:
+  → COVID Detection Sensitivity (Recall):     91.1%
+  → Pneumonia Detection Sensitivity (Recall): 96.1%
